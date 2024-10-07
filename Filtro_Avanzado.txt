@@ -1,0 +1,7 @@
+IP Pública:
+152.169.169.126
+Nombre del usuario actual:
+vagrant
+
+Hash del nombre del usuario actual:
+$y$j9T$f7V.J8o8/5JXqaI3xUKKQ0$oND2iaEkOI22AcHc9kfKwylXqBi.VixFO/cPGuxMD..
