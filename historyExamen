@@ -1,0 +1,276 @@
+    1  ls
+    2  pwd
+    3  cd ..
+    4  cd parcial1/
+    5  ls
+    6  nano puntoa.sh
+    7  sudo nano puntoa.sh
+    8  sudo bash puntoa.sh
+    9  ls
+   10  sudo rm -rf Examenes-UTN/ profesores/
+   11  ls
+   12  nano puntoa.sh
+   13  sudo nano puntoa.sh
+   14  tree
+   15  sudo tree
+   16  ls
+   17  bash puntoa.sh
+   18  sudo bash puntoa.sh
+   19  sudo tree
+   20  sudo rm -rf Examenes-UTN/
+   21  sudo tre
+   22  sudo tree
+   23  whoami
+   24  sudo whoami
+   25  sudo chown -R $USER:$USER ~/parcial_1
+   26  cd ..
+   27  sudo chown -R $USER:$USER ~/parcial_1
+   28  sudo chown -R $USER:$USER /parcial_1
+   29  sudo chown -R $USER:$USER parcial1/
+   30  cd parcial1/
+   31  nano puntoa.sh
+   32  bash puntoa.sh
+   33  tree
+   34  rm -rf Examenes-UTN/
+   35  tree
+   36  nano puntoa.sh
+   37  bash puntoa.sh
+   38  tree
+   39  sudo fdisk -l
+   40  ls -l
+   41  nano puntob.sh
+   42  lsblk
+   43  nano puntob.sh
+   44  lsblk
+   45  nano puntob.sh
+   46  bash puntob.sh
+   47  nano puntob.sh
+   48  bash puntob.sh
+   49  lsblk
+   50  man lsblk
+   51  lsblk --help
+   52  lsblk -path
+   53  lsblk -p
+   54  sudo(
+   55  echo n  # Nueva partición
+   56  echo p  # Primaria
+   57  echo 1  # Número de partición
+   58  echo   # Primer sector (predeterminado)
+   59  echo +2.5G  # Tamaño de la partición
+   60  echo n  # Nueva partición
+   61  echo p  # Primaria
+   62  echo 2  # Número de partición
+   63  echo   # Primer sector (predeterminado)
+   64  echo +2.5G  # Tamaño de la partición
+   65  echo n  # Nueva partición
+   66  echo p  # Primaria
+   67  echo 3  # Número de partición
+   68  echo   # Primer sector (predeterminado)
+   69  echo +2.5G  # Tamaño de la partición
+   70  echo n  # Nueva partición
+   71  echo e  # Extendida
+   72  echo 4  # Número de partición
+   73  echo   # Primer sector (predeterminado)
+   74  echo   # Último sector (predeterminado)
+   75  echo n  # Nueva partición lógica
+   76  echo l  # Lógica
+   77  echo   # Número de partición (predeterminado)
+   78  echo   # Primer sector (predeterminado)
+   79  echo +2.5G  # Tamaño de la partición
+   80  echo w  # Escribir cambios
+   81  ) | fdisk $DISCO
+   82  nano puntob.sh
+   83  bash puntob.sh
+   84  nano puntob.sh
+   85  bash puntob.sh
+   86  nano puntob.sh
+   87  bash puntob.sh
+   88  useradd --help
+   89  man useradd
+   90  man chmod
+   91  man ll
+   92*
+   93  ll examenes-UTN
+   94  ls
+   95  ll Examenes-UTN
+   96  whoami
+   97  history
+      98  sudo -h
+   99  nano puntoc.sh
+  100  bash puntoc.sh
+  101  ll
+  102  nano puntoc.sh
+  103  ll
+  104  ll Examenes-UTN/
+  105  nano puntoc.sh
+  106  bash puntoc.sh
+  107  nano puntoc.sh
+  108  bash puntoc.sh
+  109  cd..
+  110  cd ..
+  111  ls
+  112  ls -l
+  113  cd parcial1/
+  114  nano puntoc.sh
+  115  sudo -u "developer" whoami >> /parcial1/Examenes-UTN/alumno_1/validar.txt
+  116  sudo -u "developer" whoami >> ~/parcial1/Examenes-UTN/alumno_1/validar.txt
+  117  sudo -u "developer" whoami >> /home/parcial1/Examenes-UTN/alumno_1/validar.txt
+  118  sudo -u "developer" bash whoami >> /home/parcial1/Examenes-UTN/alumno_1/validar.txt
+  119  sudo -u "developer" whoami >> /home/parcial1/
+  120  touch validarAlumno1.txt
+  121  ls
+  122  sudo -u "developer" whoami >> /home/parcial1/validarAlumno1.txt
+  123  nano validarAlumno1.txt
+  124  nano puntoc.sh
+  125  bash puntoc.sh
+  126  nano puntoc.sh
+  127  sudo bash puntoc.sh
+  128  tree
+  129  cat validarAlumno1.txt
+  130  cat validarAlumno2.txt
+  131  nano validarAlumno.txt
+  132  nano puntoc.sh
+  133  bash puntoc.sh
+  134  sudo bash puntoc.sh
+  135  ls
+  136  cat validarAlumno1.txt
+  137  cat validarAlumno2.txt
+  138  nano puntoc.sh
+  139  sudo -u whoami
+  140  sudo -u tester whoami
+  141  history
+  142  sudo -u tester whoami
+  143  cat etc/passwd
+  144  who
+  145  cd ..
+  146  ls
+  147  cd etc
+  148  cat /etc/passwd
+  149  cd ..
+  150  cat /etc/passwd
+  151  cat /etc/passwd | grep tester
+  152  ls
+  153  cd home
+  154  cd parcial1/
+  155  nano puntoc.sh
+  156  sudo bash puntoc.sh
+  157  nano puntoc.sh
+  158  sudo bash puntoc.sh
+  159  cat /etc/passwd | grep testerç
+  160  cat /etc/passwd | grep tester
+  161  sudo -u tester whoami
+  162  cat validarAlumno2.txt
+  163  cat validarAlumno3.txt
+  164  cat validarprofesores.txt
+  165  history
+  166  nano puntoc.sh
+  167  ll
+  168  bash puntoc.sh
+  169  ll /home/parcial1/Examenes-UTN/
+  170  nano puntoc.sh
+  171  bash puntoc.sh
+  172  sudo bash puntoc.sh
+  173  ll
+  174  history
+  //
+En el medio tuve que tocar Control+C y perdi parte del historial
+  //
+  229  history
+  230  grep "MemTotal" /proc/meminfo
+  231  sudo demicode -t chassis | grep "Manufacturer"
+  232  sudo dmicode -t chassis | grep "Manufacturer"
+  233  sudo dmicode -t chassis
+  234  sudo dmidecode -t chassis
+  235  sudo dmidecode -t chassis | grep "Manufacturer"
+  236  pwd
+  237  cd ..
+  238  cd parcial1/
+  239  nano puntoe.sh
+  240  grep "MemTotal" /proc/meminfo | awk '{print $2 " " $3}'
+  241  nano puntoe.sh
+  242  bash puntoe.sh
+  243  ls -l
+  244  cat Filtro_Basico.txt
+  245  history
+  237  cd ..
+  238  cd parcial1/
+  239  nano puntof.sh
+  240  bash puntof.sh
+  241  sudo bash puntof.sh
+  242  cat Filtro_Avanzado.txt
+  243  nano puntof.sh
+  244  sudo bash puntof.sh
+  245  cat Filtro_Avanzado.txt
+  246  nano puntof
+  247  ls -l
+  248  nano puntof.sh
+  249  whoami
+  250  grep "$(whoami):" /etc/shadow
+  251  sudo grep "$(whoami):" /etc/shadow
+  252  sudo grep "$(whoami):" /etc/shadow | awk -F: "{print $1}"
+  253  sudo cat grep "$(whoami):" /etc/shadow | awk -F: "{print $1}"
+  254  whoami
+  255  nano puntof.sh
+  256  sudo bash puntof.sh
+  257  cat Filtro_Avanzado.txt
+  258  nano puntof.sh
+  259  sudo grep "$(whoami)" /etc/passwd
+  260  sudo bash puntof.sh
+  261  cat Filtro_Avanzado.txt
+  262  sudo grep "$(whoami)" /etc/passwd
+  263  nano puntof.sh
+  264  bash puntof.sh
+  265  cat Filtro_Avanzado.txt
+  266  history
+  267  ssh-keygen -t rsa -b 4096 -C "nahuelbarneto@gmail.com"
+  268  cat ~/.ssh/id_rsa.pub
+  269  git remote set-url origin git@github.com:NahuelBarneto3/AySO-Parcial1-NahuelBarneto
+  270  git init
+  271  git status
+  272  ssh -T git@github.com
+  273  git remote -v
+  274  ls -la
+  275  git commit -m "Examen"
+  276  git config --global user.email "nahuelbarneto@gmail.com"
+  277  git config --global user.name "NahuelBarneto"
+  278  git commit -m "Examen"
+  279  git add .
+  280  sudo git add .
+  281  sudo git commit -m "examen"
+  282  git status
+  283  sudo git status
+  284  git push --set-upstream origin main
+  285  git push -u
+  286  git push -u origin main
+  287  git branch
+  288  git push -u origin master
+  289  git push --set-upstream origin master
+  290  git push
+  291  git remote add origin https://github.com/NahuelBarneto3/AySO-Parcial1-NahuelBarneto
+  292  git push -u origin master
+  293  git remote -v
+  294  ssh -T git@github.com
+  295  eval "$(ssh-agent -s)"
+  296  ssh-add ~/.ssh/id_rsa
+  297  cat ~/.ssh/id_rsa
+  298  cat ~/.ssh/id_rsa.pub
+  299  ssh -T git@github.com
+  300  git push -u origin master
+  301  ssh -T git@github.com
+  302  git push -u origin master
+  303  git remote set-url origin git@github.com:NahuelBarneto3/AySO-Parcial1-NahuelBarneto.git
+  304  git push -u origin master
+  305  git push -u origin main
+  306  nano puntod.sh
+  307  touch README.md
+  308  ls -;
+  309  ls -l
+  310  nano README.md
+  311  git add .
+  312  sudo git add .
+  313  git commit -m "commit 1724"
+  314  sudo git commit -m "commit 1724"
+  315  sudo git status
+  316  git push -u origin main
+  317  git push -u origin master
+  318  history
